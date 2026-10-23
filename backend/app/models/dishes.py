@@ -5,6 +5,7 @@ Defines the SQL Alchemy schema for Dish items and provides pre-seeded menu items
 each complete with deterministic 128-dimensional CNN visual embeddings.
 """
 
+from __future__ import annotations
 import json
 from sqlalchemy import Column, Integer, String, Float
 from app.models.base import Base

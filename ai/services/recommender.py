@@ -5,6 +5,7 @@ Performs cosine similarity calculations between the User's visual taste profile 
 and the candidate dishes in the database to rank the best matching foods.
 """
 
+from __future__ import annotations
 import math
 
 

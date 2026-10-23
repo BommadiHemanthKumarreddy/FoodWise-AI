@@ -6,6 +6,7 @@ visual embeddings from dish images. Incorporates a graceful fallback if PyTorch
 is still installing or not available on the client machine.
 """
 
+from __future__ import annotations
 import json
 import hashlib
 
